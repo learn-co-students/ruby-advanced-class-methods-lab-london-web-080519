@@ -12,7 +12,6 @@ class Song
     @@all
   end
 
-
   
   def self.new_by_name(name)
     song = self.new 
@@ -38,7 +37,6 @@ class Song
   end
   
   def self.alphabetical()
-
     @@all.sort_by{|song| song.name}
   end
   
